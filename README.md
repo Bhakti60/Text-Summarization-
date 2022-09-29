@@ -15,9 +15,9 @@ Clone the repository - git clone "repo url"
 
 Create & activate virtual environment
 So now open the terminal type the below command: 
-<pip3 install virtualenv>
-<virtualenv>
-<source bin/activate>
-  
-Run the app <flask run> 
-Now you will be directed to the Fast API routing methods. Firstly, you need to upload your text file in the POST summary. After successfully uploading your file, you can execute the Get Summary method and acquire the summarized content.
+       <pip3 install virtualenv>
+       <virtualenv>
+       <source bin/activate>
+Run the app : 
+       <flask run> 
+Firstly, you need to upload your text in the POST summary. After successfully uploading text in textbox, you can execute the Get Summary method and acquire the summarized content on screen.
